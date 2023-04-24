@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "chatgpt extension",
+  "description": "This ia chat gpt based google chrome extention",
+  "version": "1.0",
+  "icons": {
+    "16": "icons/iss.png",
+    "32": "icons/iss.png",
+    "48": "icons/iss.png",
+    "128": "icons/iss.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/iss.png",
+      "32": "icons/iss.png",
+      "48": "icons/iss.png",
+      "128": "icons/iss.png"
+       
+   },
+   "default_popup":"./popup/popup.html"
+    
+    
+  },
+  "permissions": ["tabs"],
+  "content_scripts": [
+    {
+      "js": ["./content.js"],
+      "matches": ["*://chat.openai.com/*"],
+      "run_at": "document_end"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+body{
+    background: rgb(53, 53, 53);
+    
+    
+}
+body section{
+    height: 150px;
+}
+h1{
+    font-size: 23px;
+    color: aliceblue;
+    text-align: center;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body p{
+    font-size: 13px;
+    color: rgb(184, 184, 184);
+    text-align: center;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 15px;
+    padding: 10px;
+    background-color: rgb(199, 199, 199);
+    width: 150px;
+}
+#btn_prompt{
+    box-sizing: 10px 10pxs;
+    align-items: center;
+    margin-left: 38px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    background-color: rgb(160, 182, 201);
+    color: rgb(41, 41, 41);
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
